@@ -2,11 +2,45 @@
   "store.home": { 
     "blocks": [
       "rich-text",
-      "rich-text#vasco",
+      "responsive-layout.desktop#home",
       "info-card#button-right",
       "info-card#button-left"
     ]
   },
+
+  
+  "responsive-layout.desktop#home": {
+    "children":["list-context.image-list#banner"]
+  },
+
+  "list-context.image-list#banner":{
+    "children":["slider-layout#text"],
+    "props":{
+      "height": 764,
+      "images": [
+        {
+          "image": "assets/img/vasco.png"
+        },
+        {
+          "image": "assets/img/imgmain.png"
+        }
+      ]
+    }
+  },
+
+  "slider-layout#text": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    }
+  },
+
   "info-card#button-right": {
     "props": {
       "isFullModeStyle": false,
@@ -41,13 +75,5 @@
       "textColor": "c-on-action",
       "font": "t-heading-1"
     }
-  },
-  "rich-text#vasco": { 
-    "props": { 
-      "text": " ^-^ V A S C O D A G A M A ^-^",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "font": "t-heading-8"
-    }
   }
-  }
+}

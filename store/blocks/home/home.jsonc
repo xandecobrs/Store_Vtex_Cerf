@@ -1,0 +1,53 @@
+{
+  "store.home": { 
+    "blocks": [
+      "rich-text",
+      "rich-text#vasco",
+      "info-card#button-right",
+      "info-card#button-left"
+    ]
+  },
+  "info-card#button-right": {
+    "props": {
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "imageUrl": "https://cf.shopee.com.br/file/ceb38aca097a39214b2901aa0627bc57",
+      "width": "400px",
+      "headline": "Camisa Lendaria",
+      "subhead": "Camisa do VASCO SBT apenas LENDAS tem essa camisa, seja uma lenda garanta a sua!!",
+      "callToActionMode": "button",
+      "callToActionText": "VEJA",
+      "callToActionUrl": "/sale/d",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#button-left": {
+    "props": {
+    "isFullModeStyle": false,
+    "textPosition": "left",
+    "imageUrl": "https://img.elo7.com.br/product/zoom/30175E6/camisa-vasco-camisa-personalizada.jpg",
+    "headline": "Camisa Vasco Tropical",
+    "subhead": "Venha conhecer as mais diversas camisas colecionaveis do GIGANTE DA COLINA!!!",
+    "callToActionMode": "link",
+    "callToActionText": "Ir para a coleção",
+    "textAlignment": "center"
+    }
+  },
+  "rich-text": { 
+    "props": { 
+      "text": "VTEX Store Framework CERF Xand",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "textColor": "c-on-action",
+      "font": "t-heading-1"
+    }
+  },
+  "rich-text#vasco": { 
+    "props": { 
+      "text": " ^-^ V A S C O D A G A M A ^-^ ",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-8"
+    }
+  }
+  }

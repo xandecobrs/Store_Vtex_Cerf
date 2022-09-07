@@ -4,13 +4,30 @@
             "blockClass": "wrapper__top-bar"
         },
         "children":[
+            "flex-layout.col#left",
+            "flex-layout.col#right"
+        ]
+    },
+    "flex-layout.col#left": {
+        "children":[
             "rich-text#email-text",
-            "rich-text#phone-text",
+            "rich-text#phone-text"
+        ],
+        "props":{
+            "blockClass":["wrapper__col", "wrapper__col-left"]
+        }
+    },
+    "flex-layout.col#right": {
+        "children":[
             "rich-text#login-text",
             "rich-text#wishlist-text",
             "rich-text#card-text"
-        ]
+        ],
+        "props":{
+            "blockClass":["wrapper__col", "wrapper__col-right"]
+        }
     },
+    
     "rich-text#email-text": {
         "props":{
             "blockClass":["text__top-bar", "email__top-bar"],

@@ -1,0 +1,9 @@
+.infoCardContainer--main__cards {
+    background-color: #66020a8f;
+}
+
+.infoCardHeadline--main__cards,
+.infoCardSubhead--main__cards{
+    color: aliceblue;
+}
+

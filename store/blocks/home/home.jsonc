@@ -36,6 +36,7 @@
         "phone": 1
       },
       "infinite": true,
+      "showPaginationDots": "never",
       "showNavigationArrows": "desktopOnly",
       "blockClass": "carousel"
     }
@@ -43,6 +44,7 @@
 
   "info-card#button-right": {
     "props": {
+      "blockClass":["main__cards", "main__cards-right" ],
       "isFullModeStyle": false,
       "textPosition": "right",
       "imageUrl": "https://cf.shopee.com.br/file/ceb38aca097a39214b2901aa0627bc57",
@@ -57,6 +59,7 @@
   },
   "info-card#button-left": {
     "props": {
+      "blockClass":["main__cards", "main__cards-left" ],
     "isFullModeStyle": false,
     "textPosition": "left",
     "imageUrl": "https://img.elo7.com.br/product/zoom/30175E6/camisa-vasco-camisa-personalizada.jpg",
@@ -69,6 +72,7 @@
   },
   "rich-text": { 
     "props": { 
+      "blockClass":"main__text-home",
       "text": "VTEX Store Framework CERF-Xand",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",

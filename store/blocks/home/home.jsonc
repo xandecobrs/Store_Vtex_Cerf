@@ -44,7 +44,7 @@
   },
   "rich-text#vasco": { 
     "props": { 
-      "text": " ^-^ V A S C O D A G A M A ^-^ ",
+      "text": " ^-^ V A S C O D A G A M A ^-^",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "font": "t-heading-8"

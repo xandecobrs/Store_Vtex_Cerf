@@ -1,35 +1,45 @@
 {
-    // "flex-layout.row#top-bar": {
-    //     "props": {
-    //         "blockClass": "wrapper__top-bar"
-    //     },
-    //     "children":[
-    //         "rich.text#email-text"
-    //     ]
-    // },
+    "flex-layout.row#top-bar": {
+        "props": {
+            "blockClass": "wrapper__top-bar"
+        },
+        "children":[
+            "rich-text#email-text",
+            "rich-text#phone-text",
+            "rich-text#login-text",
+            "rich-text#wishlist-text",
+            "rich-text#card-text"
+        ]
+    },
+    "rich-text#email-text": {
+        "props":{
+            "blockClass":["text__top-bar", "email__top-bar"],
+            "text":"![email](assets/img/top-bar/Vector.png) Alexandregs123@gmail.com"
+        }
+    },
+    "rich-text#phone-text": {
+        "props":{
+            "blockClass":["text__top-bar", "phone__top-bar"],
+            "text":"![email](assets/img/top-bar/tel.png) +55 (14) 0000-0000"
+        }
+    },
+    "rich-text#login-text": {
+        "props":{
+            "blockClass":["text__top-bar", "login__top-bar"],
+            "text":"Login ![login](assets/img/top-bar/login.png)"
+        }
+    },
+    "rich-text#wishlist-text": {
+        "props":{
+            "blockClass":["text__top-bar", "wishlist__top-bar"],
+            "text":"Wishlist ![wishlist](assets/img/top-bar/wshlist.png)"
+        }
+    },
+    "rich-text#card-text": {
+        "props":{
+            "blockClass":["text__top-bar", "card__top-bar"],
+            "text":"![card](assets/img/top-bar/cart.png)"
+        }
+    }
     
-    // "rich-text#email-text":{
-    //     "props":{
-    //         "blockClass":"text__top-bar",
-    //         "text":"![email](https://via.placeholder.com/14x16) alexandregs123@gmail.com"
-    //     }
-    // },
-    // "rich-text#phone-text":{
-    //     "props":{
-    //         "blockClass":"text__top-bar",
-    //         "text":"![phone](https://via.placeholder.com/14x16) +55 (14) 0000-0000"
-    //     }
-    // },
-    // "rich-text#login-text":{
-    //     "props":{
-    //         "blockClass":"text__top-bar",
-    //         "text":"Login ![login](https://via.placeholder.com/14x16)"
-    //     }
-    // },
-    // "rich-text#wishlist-text":{
-    //     "props":{
-    //         "blockClass":"text__top-bar",
-    //         "text":"Wishlist![login](https://via.placeholder.com/14x16)"
-    //     }
-    // }
 }

@@ -4,11 +4,11 @@
             "blockClass": "wrapper__top-bar"
         },
         "children":[
-            "flex-layout.col#left",
-            "flex-layout.col#right"
+            "flex-layout.col#leftt",
+            "flex-layout.col#rightt"
         ]
     },
-    "flex-layout.col#left": {
+    "flex-layout.col#leftt": {
         "children":[
             "rich-text#email-text",
             "rich-text#phone-text"
@@ -17,7 +17,7 @@
             "blockClass":["wrapper__col", "wrapper__col-left"]
         }
     },
-    "flex-layout.col#right": {
+    "flex-layout.col#rightt": {
         "children":[
             "rich-text#login-text",
             "rich-text#wishlist-text",

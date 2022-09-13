@@ -4,7 +4,9 @@
       "rich-text",
       "responsive-layout.desktop#home",
       "info-card#button-right",
-      "info-card#button-left"
+      "info-card#button-left",
+      "hello-world"
+
     ]
   },
 

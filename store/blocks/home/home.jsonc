@@ -1,11 +1,15 @@
 {
   "store.home": { 
     "blocks": [
+      "stack-layout#cta",
       "rich-text",
+      "modal-trigger#first",
+      "tab-layout#home",
       "responsive-layout.desktop#home",
       "info-card#button-right",
       "info-card#button-left",
-      "hello-world"
+      "list-context.product-list",
+      "slider-layout#home"
 
     ]
   },
@@ -75,16 +79,12 @@
   "rich-text": { 
     "props": { 
       "blockClass":"main__text-home",
-      "text": "VTEX Store Framework CERF-Xand",
+      "text": "VTEX Store Framework CERF-Xand Vasco",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "textColor": "c-on-action",
       "font": "t-heading-1"
     }
-  },
-  "heloo-world": {
-    "props":{
-      "title": "Teste Bloco"
-    }
   }
+
 }

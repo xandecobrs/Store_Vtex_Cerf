@@ -7,3 +7,6 @@
     color: aliceblue;
 }
 
+.imageElement--cover {
+    object-fit: cover;
+  }

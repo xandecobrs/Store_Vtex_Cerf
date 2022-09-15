@@ -1,16 +1,17 @@
 {
   "store.home": { 
     "blocks": [
-      "stack-layout#cta",
       "rich-text",
       "modal-trigger#first",
       "tab-layout#home",
       "responsive-layout.desktop#home",
       "info-card#button-right",
       "info-card#button-left",
+      "info-card#clearance",
+      "info-card#vintage",
+      "stack-layout#cta",
       "list-context.product-list",
       "slider-layout#home"
-
     ]
   },
 
@@ -74,6 +75,31 @@
     "callToActionMode": "link",
     "callToActionText": "Ir para a coleção",
     "textAlignment": "center"
+    }
+  },
+  "info-card#clearance": {
+    "props": {
+      "id": "info-card-clearance",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://images.mantosdofutebol.com.br/wp-content/uploads/2022/03/Camisa-reserva-do-Vasco-da-Gama-2022-2023-Kappa-2.jpg",
+      "headline": "Camisas Tradicionais",
+      "callToActionText": "EXPLORAR",
+      "callToActionUrl": "/sale/d",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#vintage": {
+    "props": {
+        "id": "info-card-vintage",
+        "isFullModeStyle": false,
+        "textPosition": "right",
+        "imageUrl": "https://static.vasco.com.br/wp-content/uploads/2022/09/Detalhes_Camisa3_Vasco_1-scaled.jpg",
+        "headline": "Lançamentos",
+        "callToActionText": "EXPLORAR",
+        "callToActionUrl": "/sale/d",
+        "textAlignment": "center",
+        "blockClass": "vintage"
     }
   },
   "rich-text": { 

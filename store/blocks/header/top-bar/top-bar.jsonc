@@ -57,6 +57,5 @@
             "blockClass":["text__top-bar", "card__top-bar"],
             "text":"![card](assets/img/top-bar/cart.png)"
         }
-    }
-    
+    }   
 }

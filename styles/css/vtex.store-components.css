@@ -1,36 +1,9 @@
-.infoCardContainer--main__cards {
-    background-color: #000000b0;
+.wrapper--sticky-header{
+  width: 50%;
+  height: 20px;
 }
-
-.infoCardHeadline--main__cards,
-.infoCardSubhead--main__cards{
-    color: aliceblue;
-}
-
-.imageElement--cover {
-    object-fit: cover;
-  }
-
-.infoCardHeadline {
-    font-size: 2.25rem;
-    font-weight: bold;
-    color: black;
-    border: 2px solid black;
-    padding: 24px;
-}
-
-.infoCardCallActionContainer :global(.vtex-button) {
-    color: white;
-    background-color: gray;
-    border: transparent;
-  }
-  
-.infoCardCallActionContainer :global(.vtex-button):hover {
-    color: gray;
-    background-color: white;
-    border: transparent;
-  }
-
-  .infoCardContainer--vintage {
-    background-color: #edcfd1;
+  .autoCompleteOuterContainer{
+    height: 37px;
+    width: 438px;
+    margin-right: 500px;
   }

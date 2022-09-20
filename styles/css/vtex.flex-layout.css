@@ -1,10 +1,12 @@
 .flexRow--wrapper__top-bar {
-    background-color: #000000b0;
-    height: 44px;
+    background-color: #ffffff;
+    height: 80px;
+    width: 1680px;
+    left: 0px;
+    top: 0px;
 }
 
 .flexRowContent--wrapper__top-bar{
-    max-width: 1214px;
     margin: 0 auto;
 }
 
@@ -15,4 +17,8 @@
 .flexCol--wrapper__col-right {
     display: flex;
     justify-content: flex-end;
+}
+
+.stretchChildrenWidth {
+    margin-left: 85px;
 }

@@ -1,0 +1,11 @@
+{
+    "category-menu#tagsMenu": {
+      "props": {
+        "showAllDepartments": true,
+        "showSubcategories": true,
+        "menuDisposition": "center",
+        "departments": [],
+        "sortSubcategories": "name"
+      }
+    }
+  }

@@ -1,21 +1,13 @@
 {
   "store.home": { 
     "blocks": [
-      "rich-text",
-      "modal-trigger#first",
-      "tab-layout#home",
       "responsive-layout.desktop#home",
-      "info-card#button-right",
-      "info-card#button-left",
-      "info-card#clearance",
-      "info-card#vintage",
-      "stack-layout#cta",
       "list-context.product-list",
-      "slider-layout#home"
+      "flex-layout.row#imgTags",
+      "flex-layout.row#phones"
     ]
   },
 
-  
   "responsive-layout.desktop#home": {
     "children":["list-context.image-list#banner"]
   },
@@ -23,18 +15,21 @@
   "list-context.image-list#banner":{
     "children":["slider-layout#text"],
     "props":{
-      "height": 764,
+      "height": 520,
       "images": [
         {
-          "image": "assets/img/vasco.png"
+          "image": "assets/img/banner-1.png"
         },
         {
-          "image": "assets/img/imgmain.png"
+          "image": "assets/img/banner-1.png"
+        },
+        {
+          "image": "assets/img/banner-1.png"
         }
       ]
     }
   },
-
+  
   "slider-layout#text": {
     "props": {
       "itemsPerPage": {
@@ -46,70 +41,6 @@
       "showPaginationDots": "never",
       "showNavigationArrows": "desktopOnly",
       "blockClass": "carousel"
-    }
-  },
-
-  "info-card#button-right": {
-    "props": {
-      "blockClass":["main__cards", "main__cards-right" ],
-      "isFullModeStyle": false,
-      "textPosition": "right",
-      "imageUrl": "https://cf.shopee.com.br/file/ceb38aca097a39214b2901aa0627bc57",
-      "width": "400px",
-      "headline": "Camisa Lendaria",
-      "subhead": "Camisa do VASCO SBT apenas LENDAS tem essa camisa, seja uma lenda garanta a sua!!",
-      "callToActionMode": "button",
-      "callToActionText": "VEJA",
-      "callToActionUrl": "/sale/d",
-      "textAlignment": "center"
-    }
-  },
-  "info-card#button-left": {
-    "props": {
-      "blockClass":["main__cards", "main__cards-left" ],
-    "isFullModeStyle": false,
-    "textPosition": "left",
-    "imageUrl": "https://img.elo7.com.br/product/zoom/30175E6/camisa-vasco-camisa-personalizada.jpg",
-    "headline": "Camisa Vasco Tropical",
-    "subhead": "Venha conhecer as mais diversas camisas colecionaveis do GIGANTE DA COLINA!!!",
-    "callToActionMode": "link",
-    "callToActionText": "Ir para a coleção",
-    "textAlignment": "center"
-    }
-  },
-  "info-card#clearance": {
-    "props": {
-      "id": "info-card-clearance",
-      "isFullModeStyle": false,
-      "textPosition": "left",
-      "imageUrl": "https://images.mantosdofutebol.com.br/wp-content/uploads/2022/03/Camisa-reserva-do-Vasco-da-Gama-2022-2023-Kappa-2.jpg",
-      "headline": "Camisas Tradicionais",
-      "callToActionText": "EXPLORAR",
-      "callToActionUrl": "/sale/d",
-      "textAlignment": "center"
-    }
-  },
-  "info-card#vintage": {
-    "props": {
-        "id": "info-card-vintage",
-        "isFullModeStyle": false,
-        "textPosition": "right",
-        "imageUrl": "https://static.vasco.com.br/wp-content/uploads/2022/09/Detalhes_Camisa3_Vasco_1-scaled.jpg",
-        "headline": "Lançamentos",
-        "callToActionText": "EXPLORAR",
-        "callToActionUrl": "/sale/d",
-        "textAlignment": "center",
-        "blockClass": "vintage"
-    }
-  },
-  "rich-text": { 
-    "props": { 
-      "blockClass":"main__text-home",
-      "text": "VTEX Store Framework CERF-Xand Vasco",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "textColor": "c-on-action",
-      "font": "t-heading-1"
     }
   }
 

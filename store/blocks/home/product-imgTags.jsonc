@@ -1,0 +1,26 @@
+{
+    "flex-layout.row#imgTags": {
+        "children":["rich-text#tagImg", "rich-text#tagImg2", "rich-text#tagImg3"],
+        "props":{
+            "blockClass":["flexLayout__imgTags"]
+        }
+    },
+    "rich-text#tagImg": {
+        "props":{
+            "blockClass":["rich__tagImg"],
+            "text": "![tagImg](assets/img/b1.png)"
+        }
+    },
+    "rich-text#tagImg2": {
+        "props":{
+            "blockClass":["rich__tagImg"],
+            "text": "![tagImg](assets/img/b2.png)"
+        }
+    },
+    "rich-text#tagImg3": {
+        "props":{
+            "blockClass":["rich__tagImg"],
+            "text": "![tagImg](assets/img/b3.png)"
+        }
+    }
+}

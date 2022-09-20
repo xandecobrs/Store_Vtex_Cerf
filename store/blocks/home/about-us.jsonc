@@ -29,7 +29,6 @@
     },
     "image#about-us":{
         "props":{
-            "src": "https://m.supervasco.com/wallpaper/gerar-imagem/?url=https://media.supervasco.com/wallpapper/2020/08/bandeira-vascaina.png",
             "maxHeight": "600px"
         }
     }

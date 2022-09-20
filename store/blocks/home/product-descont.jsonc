@@ -1,0 +1,33 @@
+{
+    "flex-layout.row#descont": {
+        "children":["rich-text#desc", "rich-text#desc2" ],
+        "props":{
+            "blockClass":["flexLayout__descont"]
+        }
+    },
+
+    "rich-text#desc": {
+        "props":{
+            "blockClass":["rich__desc", "img__205"],
+            "text": "![tagImg](assets/img/Rectangle205.png)"
+        }
+    },
+    "rich-text#desc2": {
+        "props":{
+            "blockClass":["rich__desc"],
+            "text": "![tagImg](assets/img/Rectangle202.png)"
+        }
+    },
+    "rich-text#desc3": {
+        "props":{
+            "blockClass":["rich__desc"],
+            "text": "![tagImg](assets/img/Rectangle203.png)"
+        }
+    },
+    "rich-text#desc4": {
+        "props":{
+            "blockClass":["rich__desc"],
+            "text": "![tagImg](assets/img/Rectangle206.png)"
+        }
+    }
+}

@@ -1,10 +1,8 @@
 .paragraph--text__top-bar {
-    font-size: 16px;
-    color: #F1F1F1;
-    font-family: 'JosefinSans';
+    width: 20px;
+    height: 7px;
 }
 
-.wrapper--email__top-bar,
 .wrapper--text__top-bar {
     margin-right: 30px;
 }
@@ -20,6 +18,11 @@
     margin: 0;
 }
 
+
 .container--main__text-home{
     background-color: #000000b0;
+}
+
+.image--wrapper__logo {
+    margin-left: 200px;
 }

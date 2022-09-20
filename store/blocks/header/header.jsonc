@@ -7,8 +7,8 @@
   },
   "header-layout.desktop": {
     "children": [
-      "flex-layout.row#top-bar",
-      "sticky-layout#desktop"
+      "sticky-layout#desktop",
+      "category-menu#tagsMenu"
 
     ]
   },
@@ -22,6 +22,7 @@
 
   "flex-layout.row#desktop": {
     "props": {
+      "blockClass":["flexRowContent"],
       "horizontalAlign": "center",
       "verticalAlign": "center",
       "preventHorizontalStretch": true,
@@ -32,9 +33,7 @@
       "flex-layout.col#logo-desktop",
       "flex-layout.col#spacer",
       "search-bar",
-      "locale-switcher",
-      "login",
-      "minicart.v2"
+      "flex-layout.col#rightt"
     ]
   },
   "flex-layout.col#spacer": {
@@ -46,15 +45,12 @@
     "props": {
       "verticalAlign": "middle"
     },
-    "children": ["logo"]
+    "children": ["rich-text#logo"]
   },
-  "logo": {
+  "rich-text#logo": {
     "props": {
-      "title": "Logo",
-      "href": "/",
-      "url": "https://c.tenor.com/Eutf3juURy0AAAAC/league-of-legend-lol.gif",
-      "width": "50",
-      "height": "40"
+      "blockClass":["wrapper__logo"],
+      "text":"![logo](assets/img/promo.png)"
     }
   },
   "header-layout.mobile": {
@@ -68,8 +64,8 @@
       "drawer",
       "logo",
       "flex-layout.col#spacer",
-      "login",
-      "minicart.v2"
+      "minicart.v2",
+      "flex-layout.col#rightt"
     ],
     "props": {
       "blockClass": "main-header-mobile",
@@ -80,5 +76,51 @@
   },
   "drawer": {
     "children": []
-  }
+  },
+  "flex-layout.col#leftt": {
+    "children":[
+      "rich-text#logo"
+    ],
+    "props":{
+        "blockClass":["wrapper__col", "wrapper__col-left"]
+    }
+},
+"flex-layout.col#rightt": {
+    "children":[
+        "rich-text#vector-text",
+        "rich-text#login-text",
+        "rich-text#wishlist-text",
+        "rich-text#card-text"
+        
+    ],
+    "props":{
+        "blockClass":["wrapper__col", "wrapper__col-right"]
+    }
+},
+
+"rich-text#login-text": {
+    "props":{
+        "blockClass":["text__top-bar", "login__top-bar"],
+        "text":"![login](assets/img/top-bar/login.png)"
+    }
+},
+"rich-text#wishlist-text": {
+    "props":{
+        "blockClass":["text__top-bar", "wishlist__top-bar"],
+        "text":"![wishlist](assets/img/top-bar/wshlist.png)"
+    }
+},
+"rich-text#card-text": {
+    "props":{
+        "blockClass":["text__top-bar", "card__top-bar"],
+        "text":"![card](assets/img/top-bar/cart.png)"
+    }
+},
+"rich-text#vector-text": {
+    "props":{
+        "blockClass":["text__top-bar", "vector__top-bar"],
+        "text":"![vector](assets/img/top-bar/Vector.png)"
+    }
+}
+
 }

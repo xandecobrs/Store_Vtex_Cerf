@@ -1,0 +1,14 @@
+{
+    "flex-layout.row#phones":{
+        "children":["rich-text#img5", "list-context.product-list"],
+        "props":{
+            "blockClass":["flexLayout__phones"]
+        }
+    },
+    "rich-text#img5": {
+        "props":{
+            "blockClass":["rich__img5"],
+            "text":"![img5](assets/img/b4.png)"
+        }
+    }
+}

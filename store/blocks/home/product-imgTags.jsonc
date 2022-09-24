@@ -1,26 +1,42 @@
 {
     "flex-layout.row#imgTags": {
-        "children":["rich-text#tagImg", "rich-text#tagImg2", "rich-text#tagImg3"],
+        "children":["image#tagImg", "image#tagImg2", "image#tagImg3"],
         "props":{
-            "blockClass":["flexLayout__imgTags"]
+            "blockClass":"flexLayout__imgTags",
+            "horizontalAlign": "center", 
+            "preventHorizontalStretch": true,
+            "marginRight":10,
+            "marginBottom":9,
+            "margonLeft": 10,
+            "marginTop":9
+
         }
     },
-    "rich-text#tagImg": {
+    "image#tagImg": {
         "props":{
-            "blockClass":["rich__tagImg"],
-            "text": "![tagImg](assets/img/b1.png)"
+            "src":"assets/img/b1.png",
+            "marginRight":4,
+            "margonLeft": 4,
+            "width": 280,
+            "height": 280
         }
     },
-    "rich-text#tagImg2": {
+    "image#tagImg2": {
         "props":{
-            "blockClass":["rich__tagImg"],
-            "text": "![tagImg](assets/img/b2.png)"
+            "src":"assets/img/b2.png",
+            "marginRight":4,
+            "margonLeft": 4,
+            "width": 280,
+            "height": 280
         }
     },
-    "rich-text#tagImg3": {
+    "image#tagImg3": {
         "props":{
-            "blockClass":["rich__tagImg"],
-            "text": "![tagImg](assets/img/b3.png)"
+            "src":"assets/img/b3.png",
+            "marginRight":4,
+            "margonLeft": 4,
+            "width": 280,
+            "height": 280
         }
     }
 }

@@ -2,9 +2,16 @@
   "store.home": { 
     "blocks": [
       "responsive-layout.desktop#home",
+      "flex-layout.row#inf-home",
       "list-context.product-list",
       "flex-layout.row#imgTags",
-      "flex-layout.row#phones"
+      "flex-layout.row#phones",
+      "flex-layout.row#desc",
+      "flex-layout.row#prodText",
+      "list-context.product-list",
+      "flex-layout.row#imgFim",
+      "stack-layout#desc",
+      "rich-text#avaliFim"
     ]
   },
 
@@ -18,13 +25,16 @@
       "height": 520,
       "images": [
         {
-          "image": "assets/img/banner-1.png"
+          "image": "assets/img/banner-1.png",
+          "height": "100%", "width": "100%"
         },
         {
-          "image": "assets/img/banner-1.png"
+          "image": "assets/img/banner-1.png",
+          "height": "100%", "width": "100%"
         },
         {
-          "image": "assets/img/banner-1.png"
+          "image": "assets/img/banner-1.png",
+          "height": "100%", "width": "100%"
         }
       ]
     }
@@ -42,6 +52,82 @@
       "showNavigationArrows": "desktopOnly",
       "blockClass": "carousel"
     }
+  },
+
+  "flex-layout.row#desc":{
+    "children":["rich-text#ret1"],
+    "props":{
+      "blockClass":["flex__img1"]
+    }
+  },
+  "rich-text#ret1": {
+    "props":{
+      "text": "!![tagImg](assets/img/Rectangle205.png)"
+    }
+  },
+
+  "flex-layout.row#prodText":{
+    "children":["rich-text#prodText"],
+    "props":{
+      "blockClass":["flex__prodText"]
+    }
+  },
+
+  "rich-text#prodText":{
+    "props":{
+      "blockClass":["rich__prodText"],
+      "text": "Produtos em Promoção"
+    }
+  },
+
+  "flex-layout.row#imgFim":{
+    "children":[],
+    "props":{
+      "blockClass":["flex__imgFim"]
+    }
+  },
+
+  "rich-text#imgFinal":{
+    "props":{
+      "blockClass":["rich__imgFim"],
+      "text":"!![tagImg](assets/img/Rectangle223.png)"
+    }
+  },
+  
+  "stack-layout#desc": {
+    "props": {
+      "marginTop": 20
+    },
+    "children": [
+      "image#stackdesc",
+      "link#stackdesc"
+    ]
+  },
+  "image#stackdesc": {
+    "props": {
+      "src":"assets/img/Rectangle223.png", "alt":"desc",
+      "maxWidth": 1170, "maxHeight": 234
+    }
+  },
+  "link#stackdesc": {
+    "props": {
+      "blockClass": "botaoDesconto",
+      "displayMode": "button",
+      "buttonProps": {
+        "size": "large",
+        "variant": "primary"
+      },
+      "href":"/desc",
+      "label": "Participe"
+    }
+  },
+
+  "rich-text#avaliFim": {"props": {
+    "blockClass": "richText__avaliFim",
+    "textAlignment": "center",
+    "textPosition": "center",
+    "text": "Avaliações"
   }
+}
 
 }

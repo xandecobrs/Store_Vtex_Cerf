@@ -1,0 +1,9 @@
+{
+    "flex-custom": {
+        "component": "FlexCustom"
+    },
+
+    "avaliacao": {
+        "component": "avaliacao"
+    }
+}

@@ -11,7 +11,8 @@
       "list-context.product-list",
       "flex-layout.row#imgFim",
       "stack-layout#desc",
-      "rich-text#avaliFim"
+      "rich-text#avaliFim",
+      "flex-layout.row#imgend"
     ]
   },
 
@@ -37,6 +38,17 @@
           "height": "100%", "width": "100%"
         }
       ]
+    }
+  },
+
+  "flex-custom#descontocadeira":{
+    "props": {
+      "marginBottom": 9, "marginTop":9,
+      "src1": "assets/img/Rectangle205.png",
+      "src2": "assets/img/Rectangle202.png",
+      "src3": "assets/img/Rectangle203.png",
+      "src4": "assets/img/Rectangle206.png",
+      "preventHorizontalStretch": true
     }
   },
   
@@ -121,13 +133,28 @@
       "label": "Participe"
     }
   },
-
+// avaliação // 
   "rich-text#avaliFim": {"props": {
     "blockClass": "richText__avaliFim",
     "textAlignment": "center",
     "textPosition": "center",
     "text": "Avaliações"
   }
-}
+},
 
+
+
+// 3 imagens do final //
+"flex-layout.row#imgend": {
+  "children":[],
+  "props":{
+    "marginTop": 6,
+    "marginBottom": 6,
+    "horizontalAlign":"center"
+  }
+},
+
+"image#imgend":{
+  "props":{"src":"assets/img/image9.png"}
+}
 }
